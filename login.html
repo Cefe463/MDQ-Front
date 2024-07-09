@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Header genérico generado con HeaderFooter.js-->
+    </header>
+    <main>
+        <div id="app">
+            <form>
+                <h2>Bienvenido!!</h2>
+                <div>
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" v-model="usuario">
+                </div>
+                <div>
+                    <label for="clave">Clave</label>
+                    <input type="password" name="clave" id="clave" v-model="clave">
+                </div>
+                <button type="button" class="botonCRUD" v-on:click="login()">Ingresar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./java/login.js"></script>
+    <script src="./java/HeaderFooter.js"></script>
+</body>
+
+</html>
+

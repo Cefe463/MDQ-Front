@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(134, 111, 95);
+}
+
+header {
+    background-color: rgb(54, 53, 53);
+    font-size: 1em;
+    padding: 1px 12px 7px 12px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#header {
+    /* padding: 2px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover {
+    color: rgb(237, 118, 20);
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(54, 53, 53);
+    font-size: 1em;
+    padding: 5px 12px 5px 12px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+footer a:hover {
+    color: rgb(237, 118, 20);
+    text-decoration: none;
+}
+
+#ultimo {
+    text-align: left;
+    margin-left: 15px;
+}
+
+#ultimo a {
+    padding-right: 15px;
+
+}
+
+#ultimo img {
+    height: 25px;
+}
+
+.derechos {
+    text-align: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.text{ 
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #000000; /* Color del texto */
+    padding: 20px; 
+    text-align: center; /* Alineación del texto */
+    border-color: mediumturquoise;
+}    
+
+.logo {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+/* Estilos para los títulos*/
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de div1 */
+#div1 {
+    margin: 1px 0px;
+}
+
+/* Estilos para las tarjetas de exploración */
+.opciones {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-bottom: 80px;
+    padding-bottom: 35px;
+}
+/* Transición en tarjetas */
+.opciones .card {
+    background-color: rgba(54, 53, 53, 0.1);
+    border-radius: 10px;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+/* Tranformación en tarjetas */
+.opciones .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 18px rgba(233, 222, 222, 0.5);
+}
+
+.opciones .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    width: 260px;
+}
+
+.opciones .card-content {
+    padding: 15px
+}
+
+.opciones .card-content h3 {
+    margin-top: 0;
+}
+
+.opciones .card-content p {
+    margin-bottom: 10px;
+}
+
+.opciones .card-content a:hover {
+    color: rgb(233, 218, 218);
+}
+
+.botonMasInfo {
+    border-radius: 9px;
+}
+
+.botonMasInfo:hover {
+    background-color: rgb(54, 53, 53);
+    color: rgb(237, 118, 20);
+}
+
+#card-content {}
+
+/* Formularios */
+form {
+    border: 2px solid rgb(237, 118, 20);
+    border-radius: 10px;
+    background-color: rgba(159, 155, 116, 0.2);
+    
+}
+
+label {
+    color: black;
+    margin: 5px, 0px, 5px, 5px;
+}
+
+select,
+input,
+option {
+    color: black;
+    margin: 5px;
+}
+
+#diasVisita,
+#horarioVisita,
+#precioPorPersona {
+    margin: 10px;
+    padding: 0px;
+}
+
+/* CRUD */
+
+#listado {
+    font-size: 0.7em;
+}
+
+table,th,td{
+    border: 1px solid rgb(14, 13, 13) ;
+    border-collapse: collapse;
+}
+td {
+    vertical-align:auto ;
+}
+
+.botonCRUD {
+    border: 1px solid rgb(14, 13, 13) ;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 235, 235);
+    color: #000000;
+}
+.botonCRUD:hover {
+    background-color: rgb(54, 53, 53);
+    color: rgb(237, 118, 20);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }

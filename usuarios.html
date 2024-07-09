@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </header>
+    
+    <main id="listado">
+        <div id="app" class="container">
+            <h2>Administración de usuarios</h2>
+            <br>
+            <a class="botonCRUD" href="usuario_nuevo.html">Nuevo usuario</a>
+            <br><br>
+            <div v-if="error">
+                <p>Lo sentimos , ........</p>
+            </div>
+            <div v-else>
+                <section v-if="cargando">
+                    <div class="spinner-border"></div>
+                    <p>Cargando .....</p>
+                </section>
+                <section v-else>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Usuario</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Apellido</th>
+                                    <th scope="col">Clave</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Tipo</th>
+                                    <th scope="col">Fecha</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="" v-for="usuario in usuarios">
+                                    <td scope="row">{{usuario.id}}</td>
+                                    <td>{{usuario.usuario}}</td>
+                                    <td>{{usuario.nombre}}</td>
+                                    <td>{{usuario.apellido}}</td>
+                                    <td>{{usuario.clave}}</td>
+                                    <td>{{usuario.email}}</td>
+                                    <td>{{usuario.tipo}}</td>
+                                    <td>
+                                        <a :href="'usuario_modifica.html?id='+ usuario.id"><button class="botonCRUD">Modificar</button></a>
+                                        <button type="button" class="botonCRUD"
+                                            v-on:click="eliminar(usuario.id)">Eliminar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </footer>
+</body>
+
+<script src="./java/HeaderFooter.js"></script>
+<!--Links de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script><!--Link de VUE-->
+<script src="./java/usuarios.js"></script>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Explora lo que Mar del Plata tiene para ofrecerte. Descubre sus lugares más emblemáticos y sus atracciones turísticas.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDQ Explore</title>
+    <link rel="shortcut icon" href="img/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+
+<body>
+    <header>
+        <!-- Header genérico generado con HeaderFooter.js-->
+    </header>
+    <main>
+        <div id="div1">
+            <h2>Descubrí lo que Mar del Plata <br>Tiene para vos</h2>
+        </div>
+
+        <!-- Tarjetas de exploración con vue desde json con fetch-->
+        <div id="app" class="opciones">
+            <div v-for="tour in datos">
+                <div class="card">
+                    <img :src="tour.foto" :alt="tour.nombre">
+                    <form id="card-content" action="./reserva.html">
+                        <h3>{{tour.nombre}}</h3>
+                        <!-- <h5>{{tour.id}}</h5> -->
+                        <input type="hidden" name="dato" :value="tour.id" />
+                        <input type="submit" :id="tour.id" class="botonMasInfo" value="Mas información">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <!-- Pie de página genérico generado con HeaderFooter.js -->
+        </footer>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="./java/index.js"></script>
+        <script src="./java/HeaderFooter.js"></script>
+</body>
+
+</html>

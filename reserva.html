@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h2 id="titulo"></h2>
+        <div id="div1">
+            <img id="muestra" src="" alt="" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            <iframe id="maps" src=""  width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p id="info"></p>
+            <p id="diasVisita"></p>
+            <p id="horarioVisita"></p>
+            <p id="precioPorPersona"></p>
+            <form action="./confirmaciónReserva.html" id="reserva">
+                <label for="excursion" >Excursión:</label>
+                    <select id="excursion" name="excursion" value=""></select><br>
+                <label for="titularReserva:">Titular de la reserva:</label>
+                <label for="nombre">Nombre/s:</label>
+                <input type="text" id="nombre" name="nombre" value="" required>
+                <label for="apellido">Apellido/s:</label>
+                <input type="text" id="apellido" name="apellido" value="" required>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" value="" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" value="" required><br>
+                <label for="fecha">Fecha:</label>
+                <input type="datetime-local" id="fecha" name="fecha" value="" required>
+                <label for="cantidadAdultos">Adultos:</label>
+                <input type="number" id="cantidadAdultos" name="cantidadAdultos" value="0" required min="1">
+                <label for="cantidadMenores">Menores:</label>
+                <input type="number" id="cantidadMenores" name="cantidadMenores" value="0" required>
+                <label id="precio" for="precio"></label>
+                <input type="hidden" id="dato" name="dato" value="">
+                <br>
+                <input type="reset" id="borrar" value="Limpiar formulario">
+                <input type="submit" id="reservar" value="Reservar">
+              </form> 
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="./java/reserva.js"></script>
+    <script src="./java/HeaderFooter.js"></script>
+</body>
+
+</html>

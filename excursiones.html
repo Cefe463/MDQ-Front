@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </header>
+    <main id="listado">
+        <div id="app" class="container">
+            <h2>Administración de excursiones</h2>
+            <br>
+            <a class="botonCRUD" href="excursion_nueva.html">Nueva</a>
+            <br><br>
+            <div v-if="error">
+                <p>Lo sentimos , ........</p>
+            </div>
+            <div v-else>
+                <section v-if="cargando">
+                    <div class="spinner-border"></div>
+                    <p>Cargando .....</p>
+                </section>
+                <section v-else>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Días</th>
+                                    <th scope="col">Horarios</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Maps</th>
+                                    <th scope="col">Info</th>
+                                    <th scope="col">GPS</th>
+                                    <th scope="col">Foto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="" v-for="excursion in excursiones">
+                                    <td scope="row">{{excursion.id}}</td>
+                                    <td>{{excursion.nombre}}</td>
+                                    <td>{{excursion.dias}}</td>
+                                    <td>{{excursion.horario}}</td>
+                                    <td>{{excursion.precio}}</td>
+                                    <td>{{excursion.info}}</td>
+                                    <td>{{excursion.gps}}</td>
+                                    <td>
+                                        <iframe :src="excursion.maps" frameborder="0" width="120" height="60"></iframe>
+                                    </td>
+                                    <td>
+                                        <img width="60" :src="excursion.foto" :alt="excursion.nombre">
+                                    </td>
+                                    <td>
+                                        <a :href="'excursion_modifica.html?id='+ excursion.id"><button class="botonCRUD">Modificar</button></a>
+                                        <button type="button" class="botonCRUD"
+                                            v-on:click="eliminar(excursion.id)">Eliminar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </footer>
+</body>
+
+<script src="./java/HeaderFooter.js"></script>
+<!--Links de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script><!--Link de VUE-->
+<script src="./java/excursiones.js"></script>
+
+</html>

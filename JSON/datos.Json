@@ -1,0 +1,101 @@
+[
+    {
+        "id":"0",
+        "Nombre": "Escollera sur",
+        "Días": "Lunes, Miercoles y Viernes",
+        "Horario": "09:00 y 15:00 hs.",
+        "Precio": 2000,
+        "maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12475.69690355761!2d-58.69931560793499!3d-38.58159272764816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1715274075853!5m2!1ses!2sar",
+        "info": "La Escollera Sur de 2750 mtrs, junto con la Escollera Norte de 1050 mtrs, delimitan y encierran el puerto artificial de Mar del Plata-Los trabajos para construirlas comenzaron en 1913 y estan formadas por grandes bloques de cemento-En el extremo de la Sur se encuentra la estatua de San Salvador,patrono de los pescadores-Desde ellas se puede pescar y en su recorrido encontramos la reserva de los lobos marinos",
+        "gps": "-38.038949,-57.518582",
+        "foto": "..//img/escollera-sur-del-puerto-de-mar-del-plata-1-1024x696.jpg"
+    },
+    {
+        "id":"1",
+        "Nombre": "Gruta de Lourdes",
+        "Días": "Martes, Jueves y Sábados",
+        "Horario": "09:00 y 15:00 hs.",
+        "Precio": 2500,
+        "maps": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12568.625261157957!2d-57.560802851515966!3d-38.03658971614849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgruta%20de%20lourdes%20mar%20del%20plata!5e0!3m2!1ses!2sar!4v1715274644584!5m2!1ses!2sar",
+        "info": "Capilla que esta ubicada en una loma del puerto es un espacio de recogimiento y paz y tiene ademas, un pesebre automatizado",
+        "gps": "-38.038569,-57.553892",
+        "foto": "..//img/gruta lourdes.jpg"
+    },
+    {
+        "id":"2",
+        "Nombre": "Laguna de los padres",
+        "Días": "Lunes, Miercoles y Viernes",
+        "Horario": "11:00 y 17:00 hs.",
+        "Precio": 2300,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71168.97701736016!2d-57.73306140573326!3d-37.97120251659927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x958528d47cdd0aa7%3A0xe96eb3164005e737!2sLaguna%20de%20los%20Padres!5e0!3m2!1ses!2sar!4v1715275025427!5m2!1ses!2sar",
+        "info": "Mar del Plata está situada sobre las últimas estribaciones del sistema serrano de Tandilia, antes de perderse éstos bajo el mar.Estas sierras se levantan en medio de campos cultivados, salpicados de arboledas añosas,paisajes de terrenos quebrados, lagunas y arroyos y te permitiran disfrutar de un dia en contacto con la naturaleza y actividades nauticas con todos los servicios necesarios",
+        "gps": "-37.935452,-57.721238",
+        "foto": "..//img/laguna de los padres.jpg"
+    },
+    {
+        "id":"3",
+        "Nombre": "Parque acuático",
+        "Días": "Martes, Jueves y Sábados",
+        "Horario": "11:00 y 17:00 hs.",
+        "Precio": 1700,
+        "maps": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d169373.24029280216!2d-57.69517173521801!3d-37.92585561194821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20acuatico%20mar%20del%20plata!5e0!3m2!1ses!2sar!4v1715275163989!5m2!1ses!2sar",
+        "info": "Parque acuatico, con toboganes de hasta 25 mtrs de altura, pasando por un simulador para surfear a 70 kmts por hora, hasta experimentar una caida libre en capsulas.Toda una opcion para disfrutar en familia con servicio de reposeras, sombrillas y canchas de futball, padel y parrillas-",
+        "gps": "-37.823268,-57.622715",
+        "foto": "..//img//parque acuático.jpg"
+    },
+    {
+        "id":"4",
+        "Nombre": "Rambla",
+        "Días": "Lunes, Miercoles y Viernes",
+        "Horario": "09:00 y 15:00 hs.",
+        "Precio": 3400,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5845.8051766347235!2d-57.54460464591679!3d-38.00412688338756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc179b4b4e85%3A0x19e8b0f0dae1895f!2sMonumento%20Hist%C3%B3rico%20Nacional%20Lobos%20Marinos!5e0!3m2!1ses!2sar!4v1715275425132!5m2!1ses!2sar",
+        "info": "La Rambla Mar del Plata y las esculturas de los lobos marinos son distintivos de la ciudad- Las esculturas estan realizadas en la piedra local, llamada tambien, piedra Mar del Plata-Al fondo, el Casino Central y el Hotel Provincial, realizados por el arquitecto Bustillo. ",
+        "gps": "-38.004948,-57.541086",
+        "foto": "..//img/rambla.jpeg"
+    },
+    {
+        "id":"5",
+        "Nombre": "Torre tanque",
+        "Días": "Martes, Jueves y Sábados",
+        "Horario": "09:00 y 15:00 hs.",
+        "Precio": 5200,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.4722537304174!2d-57.53571275790093!3d-38.01276850114097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc3995935d71%3A0x7e7a4416b1a98d6f!2sTorre%20Tanque!5e0!3m2!1ses!2sar!4v1715275513899!5m2!1ses!2sar",
+        "info": "La Torre Tanque fue inagurada en 1943 y es el reservorio de agua que abastece a la parte alta de la ciudad-El edificio es de estilo Tudor y esta construido sobre el punto mas alto de la loma de Stella Maris-Cuenta con un ascensor por el que se accede al mirador terraza desde donde se puede apreciar una vista inigualable de la ciudad",
+        "gps": "-38.013149,-57.535314",
+        "foto": "..//img/torre tanque.jpg"
+    },
+    {
+        "id":"6",
+        "Nombre": "Puerto",
+        "Días": "Lunes, Miercoles y Viernes",
+        "Horario": "09:00 y 15:00 hs.",
+        "Precio": 2100,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12568.160264586515!2d-57.550462994400384!3d-38.046152762716986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddf29129483b%3A0x4d4bf245aff78945!2sPuerto%20de%20Mar%20del%20Plata!5e0!3m2!1ses!2sar!4v1715275590155!5m2!1ses!2sar",
+        "info": "El puerto y su gente son emblemáticos de Mar del Plata, así como los lobos marinos, las gaviotas, las lanchas pesqueras, las redes, las nasas y los exquisitos platos marineros que podras disfrutar en este lugar.Constituye, entonces, uno de los paseos obligados de quien visita la ciudad.",
+        "gps": "-38.050412,-57.538423",
+        "foto": "..//img/puerto.jpg"
+    },
+    {
+        "id":"7",
+        "Nombre": "Villa Victoria Ocampo",
+        "Días": "Lunes, Miercoles, Viernes",
+        "Horario": "12:00 y 17:00 hs.",
+        "Precio": 2600,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21145.636615844596!2d-57.56202488164468!3d-38.016372591070585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de9d64ad3aa1%3A0xe8cfffbf3ea03ce3!2sCentro%20Cultural%20Victoria%20Ocampo%20(Villa%20Victoria)!5e0!3m2!1ses!2sar!4v1715275671864!5m2!1ses!2sar",
+        "info": "La Villa Victoria Ocampo fue construida como residencia de vacaciones en 1912 y fue donada a la UNESCO por la escritora  Victoria Ocampo en 1973- Luego, fue adquirida por la Municipalidad y actualmente funciona como centro cultural y cuenta con una bonita cafeteria en sus jardines",
+        "gps": "-38.019825,-57.552883",
+        "foto": "..//img/VillaVictoriaOcampo.jpg"
+    },
+    {
+        "id":"8",
+        "Nombre": "Casa puente",
+        "Días": "Martes, Jueves y Sábados",
+        "Horario": "12:00 y 17:00 hs.",
+        "Precio": 3000,
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.675688293224!2d-57.575804135424896!3d-38.00802442743125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dfbf5b633b73%3A0x9603db2aa918138c!2sCASA%20SOBRE%20EL%20ARROYO%20Museo%20Casa%20del%20Puente!5e0!3m2!1ses!2sar!4v1715627047134!5m2!1ses!2sar",
+        "info": "La Casa del Puente, obra del arquitecto Amancio Williams, es sin dudas, un ícono arquitectónico de Mar del Plata, data de 1943-1945. Su estilo neogótico ha sido objeto de interés histórico y cultural debido a su diseño innovador. A lo largo de los años, la Casa del Puente ha sido preservada y restaurada, manteniendo su importancia como patrimonio arquitectónico de Mar del Plata. En la actualidad, continúa siendo un punto de interés para residentes y visitantes, atrayendo a aquellos interesados en la arquitectura y la historia. Su relevancia arquitectónica y su valor patrimonial la convierten en un sitio de importancia cultural.",
+        "gps": "-38.019825,-57.552883",
+        "foto": "..//img/casa-del-puente-mar-del-plata-1-1140x760.jpg"
+    }
+]

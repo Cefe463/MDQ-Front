@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <table id="datosDeReserva">
+
+            <tr>
+                <td>Nombre:</td>
+                <td id="nombre"></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td id="apellido"></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td id="telefono"></td>
+            </tr>
+            <tr>
+                <td>E-Mail:</td>
+                <td id="mail"></td>
+            </tr>
+            <tr>
+                <td>Fecha y horario:</td>
+                <td id="diaHora"></td>
+            </tr>
+            <tr>
+                <td>Cantidad de adultos:</td>
+                <td id="adultos"></td>
+            </tr>
+            <tr>
+                <td>Cantidad de menores:</td>
+                <td id="menores"></td>
+            </tr>
+        </table>
+
+
+        <h2>Reserva realizada con éxito</h2>
+        <form id="cont-Reserv" action="./reserva.html">
+            <input id="dato" type="hidden" name="dato" value="" />
+            <input type="submit" class="botonMasInfo" value="Hacer otra reserva">
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+<script src="./java/HeaderFooter.js"></script>
+<script src="./java/confirmReserva.js"></script>
+
+</html>

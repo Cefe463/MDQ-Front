@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MDQ Explore</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="shortcut icon" href="./IMG/lobo copia.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Header genérico generado con HeaderFooter.js-->
+    </header>
+    <main>
+        <div id="app">
+            <form>
+                <h3>Carga de una nueva excursión</h3>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" v-model="nombre">
+                </div>
+                <div>
+                    <label for="dias">Días</label>
+                    <input type="text" name="dias" id="dias" v-model="dias">
+                </div>
+                <div>
+                    <label for="horario">Horarios</label>
+                    <input type="text" name="horario" id="horario" v-model="horario">
+                </div>
+                <div>
+                    <label for="precio">Precio</label>
+                    <input type="numbre" name="precio" id="precio" v-model="precio">
+                </div>
+                <div>
+                    <label for="maps">Maps</label>
+                    <input type="foto" name="maps" id="maps" v-model="maps">
+                    <img width="100" :src="maps" alt="">
+                </div>
+                <div>
+                    <label for="info">Info:</label>
+                    <input type="text" name="info" id="info" v-model="info">
+                </div>
+                <div>
+                    <label for="gps">GPS</label>
+                    <input type="text" name="gps" id="gps" v-model="gps">
+                </div>
+                <div>
+                    <label for="foto">Foto</label>
+                    <input type="foto" name="foto" id="foto" v-model="foto">
+                    <img width="100" :src="foto" alt="">
+                </div>
+
+                <button type="button" class="botonCRUD" v-on:click="grabar()">Grabar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <!-- Pie de página genérico generado con HeaderFooter.js -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./java/excursiones.js"></script>
+    <script src="./java/HeaderFooter.js"></script>
+</body>
+
+</html>

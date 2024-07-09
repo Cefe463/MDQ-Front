@@ -1,0 +1,33 @@
+Modelo-ruta-controlador
+
+API: excursiones y usuarios, se encuentra en https://mdq.pythonanywhere.com
+Netlifiy:https://bespoke-sunburst-67fdd2.netlify.app/index.html
+Usuario:Tanguera
+Password:2024
+BBDD: 
+
+Vue: Index.html línea 28 Index.js línea 2 y la parte del crud
+
+Fetch: Index.js línea 13 y los correspondientes al crud
+
+Página responsiva: index.html
+
+Formulario: login.html
+            reserva.html (Su select se forma leyendo desde el jsaon 
+            y la opción por defecto se lee desde las tarjetas del index.html
+            enviándolas en los atributos de la url y leyénbdolos en el reserva.js)
+
+
+Animación: HeaderFooter.js líneas 4 y 5
+Transición: estilos.css línea 113 
+Transformación: estilos.css línea 118
+
+Flex: estilas.css líneas 21, 73 y 102
+
+Los header y footer de todos los html son insertados con el HeaderFooter.js
+
+Ceferino Maximo Muñoz
+DNI 24.193.849
+
+Valentina Sotelo
+DNI 42.298.505
